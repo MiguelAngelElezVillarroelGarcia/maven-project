@@ -12,7 +12,11 @@ public class Greeter {
 
   }
 
-  public final String greet(String someone) {
+  /**  
+    * Greets someone.  
+    * @return A String data type.  
+    */  
+  public final String greet(final String someone) {
     return String.format("Hello Jenkins boy, %s!", someone);
   }
 }
